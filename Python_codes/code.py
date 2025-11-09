@@ -1,16 +1,9 @@
-# user_choice = input('Select from Rock, Scissors: (r, p, s)')
+import random
 
-# choices = ['r', 'p', 's']
-# if user_choice in choices:
-#     print('valid')
-# else:
-#     print('Invalid input')
-
-user_choice = input('Select from Rock, Paper, Scissors: (r, p, s) ')
 choices = ['r', 'p', 's']
-
-ai_choice = 'r'
-
+print(random.choice(choices))
+user_choice = input('Select from Rock, Paper, Scissors: (r, p, s) ')
+ai_choice = random.choice(choices)
 if user_choice in choices:
     print(f'Your choice is {user_choice}. AI choice is {ai_choice}.')
     #r›s - p›r - s›p
