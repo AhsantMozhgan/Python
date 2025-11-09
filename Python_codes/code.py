@@ -1,7 +1,7 @@
-colors = ["red", "blue", "yellow", "white"]
-
-for color in colors:
-    # print(color)
-    # print(123)
-    # print(color)
-    print("Hello")
+my_list = [1,2,3,4,5]
+for num in my_list:
+    print(num * 2)
+    print(my_list)  
+# for num in my_list:
+#     print(num * 2)
+# print(my_list)
